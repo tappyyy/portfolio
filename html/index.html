@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../script/script.js" defer></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/utilities.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon -->
+    <link id='favicon' rel="shortcut icon" href="../assets/logo.png" type="image/x-png">
+    <title>Portfolio | Steffi Tania</title>
+</head>
+
+<body>
+    <header id="hero" id="top">
+      <!-- Navbar -->
+      <nav class="navbar">
+        <div class="container">
+          
+          <!-- Logo -->
+          <h1 id="logo">
+            <a href=""
+              ><img src="../assets/logo.png" alt="Your Logo"
+            /></a>
+          </h1>
+          
+          <!-- Navbar links -->
+          <ul class="nav-menu">
+            <li><a class="nav-link" href="#projects">PROJECTS</a></li>
+            <li><a class="nav-link" href="#">CONTACT</a></li>
+            <li>
+              <a
+                class="nav-link btn btn-primary"
+                href=""
+                >RESUME <i class="fas fa-arrow-right"></i
+              ></a>
+            </li>
+
+            <!-- Toggle switch -->
+            <div class="theme-switch">
+              <input type="checkbox" id="switch" />
+              <label class="toggle-icons" for="switch">
+                <img class="moon" src="../assets/dark.svg" />
+                <img class="sun" src="../assets/light.svg" />
+              </label>
+            </div>
+            
+            <!-- Hamburger menu -->
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+      <section class="header-container">
+        <!-- <img
+          class="profile-image"
+          src="../assets/profile.jpg"
+          alt=""
+        /> -->
+        <h2>Hi There,</h2>
+        <h1>I'm Steffi Tania</h1>
+        <p>I Am Into <span class="typing-text"></span></p>
+
+        <div class="content-text">
+          <h2></h2>
+          <h2></h2>
+
+          <p>
+          </p>
+        </div>
+        
+        <a
+          href="#s-about"
+          class="btn btn-secondary"
+          >About Me</a
+        >
+      </section>
+
+      <section id="s-about">
+        <div class="grid-layout">
+          <div>
+            <div id="creator-photo" class="delayMediumReveal">
+            </div>
+            <div>
+              <h2 class="delaySmallReveal">Steffi Tania</h2>
+              <h3 class="delayMediumReveal">
+                UI/UX & Front-End Development Enthusiast
+              </h3>
+
+              <p class="delayLargeReveal">
+                
+              </p>
+              <nav class="delayLargeReveal">
+                <ul>
+                  <a
+                    href="https://www.instagram.com/steffitanniaa_/"
+                    rel="noopener"
+                    target="_blank"
+                    ><li>
+                      <img
+                        src="../assets/instagram.svg"
+                        alt="Instagram"    
+                      /></li
+                  ></a>
+
+                  <a
+                    href="https://www.linkedin.com/in/steffitanniaa/"
+                    rel="noopener"
+                    target="_blank"
+                    ><li>
+                      <img
+                        src="../assets/linkedin (1).svg"
+                        rel="noopener"
+                        alt="LinkedIn"
+                      /></li
+                  ></a>
+
+                  <a
+                    href="https://github.com/tappyyy"
+                    rel="noopener"
+                    target="_blank"
+                    ><li>
+                      <img
+                        src="../assets/github.svg"
+                        alt="GitHub"
+                      /></li
+                  ></a>
+
+                  <a
+                  href="https://www.facebook.com/steffi.tania1"
+                  rel="noopener"
+                  target="_blank"
+                  ><li>
+                    <img
+                      src="../assets/facebook.svg"
+                      alt="Facebook"
+                    /></li
+                ></a>
+                
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- typed js effect starts -->
+    <script>
+    var typed = new Typed(".typing-text", {
+      strings: ["Front-End Development.", "Web Designing."],
+      typeSpeed: 60,
+      backSpeed: 40,
+      loop: true
+    });
+    </script>
+    <!-- typed js effect ends -->
+
+</body>
+</html>
+
