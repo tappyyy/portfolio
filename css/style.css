@@ -334,7 +334,7 @@ body {
 /* ABOUT */
 
 #s-about .grid-layout > div #creator-photo {
-  width: 47%;
+  width: 45%;
   background-image: url("../assets/profile.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -342,6 +342,11 @@ body {
   border-radius: 4px;
   height: 500px;
 }
+
+.fa-facebook {
+  color: var(--primary-color);
+}
+
 @media screen and (max-width: 1200px) {
   #s-about .grid-layout > div #creator-photo {
     width: 100%;
