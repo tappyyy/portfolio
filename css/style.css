@@ -9,6 +9,7 @@
   --bg-thrid: #eeeeee;
   --text-color: #222222;
   --text-color-two: #ffffff;
+  --text-color-three: #7c7b7b;
   --bg-secondary: #000000;
   --card-background: #f4f4f4;
   --bg-secondary-two: #111111;
@@ -33,6 +34,7 @@
   --bg-primary: #161616;
   --text-color: #ffffff;
   --text-color-two: #222222;
+  --text-color-three: #aaa8a8;
   --bg-secondary: #ffffff;
   --card-background: rgb(17, 17, 17);
   --bg-secondary-two: #f4f4f4;
@@ -331,6 +333,12 @@ body {
   margin: 5.5rem 0;
 }
 
+.division2 {
+  width: 100%;
+  height: 2px;
+  margin: 8.5rem 0;
+}
+
 /* ABOUT */
 
 #s-about .grid-layout > div #creator-photo {
@@ -345,6 +353,64 @@ body {
 
 .fa-facebook {
   color: var(--primary-color);
+}
+
+.fa-github {
+  color: var(--primary-color);
+}
+
+.fa-instagram {
+  color: var(--primary-color);
+}
+
+.fa-linkedin {
+  color: var(--primary-color);
+}
+
+/* SKILLS */
+.fa-html5 {
+  color: rgb(227, 76, 38);
+}
+
+.fa-css3-alt {
+  color: #264de4;
+}
+
+.fa-js {
+  color: #f0db4f;
+}
+
+.fa-php {
+  color: #8993be;
+}
+
+.fa-java {
+  color: #f89820;
+}
+
+.fa-database {
+  color: #0769ad;
+}
+
+.fa-c {
+  color: #00599c;
+}
+
+/* FRAMEWORK */
+.fa-laravel {
+  color: #fb503b;
+}
+
+.fa-bootstrap {
+  color: #59287a;
+}
+
+.fa-node {
+  color: #215732;
+}
+
+.fa-react {
+  color: #61dafb;
 }
 
 @media screen and (max-width: 1200px) {
@@ -459,8 +525,8 @@ body {
   color: var(--primary-color);
 }
 #s-about .grid-layout > div div:nth-child(2) p {
-  font-size: 1.8rem;
-  color: #9ca3af;
+  font-size: 20px;
+  color: var(--text-color-three);
   line-height: 160%;
   margin: 32px 0px 48px 0px;
 }
