@@ -433,3 +433,8 @@ h2::selection {
 .card:nth-child(9) {
   background: url(../assets/portfolio.png) center center/cover;
 }
+
+/* Project 10 */
+.card:nth-child(10) {
+  background: url(../assets/Traveloko.png) center center/cover;
+}
